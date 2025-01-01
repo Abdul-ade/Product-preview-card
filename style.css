@@ -9,6 +9,11 @@ html {
 body {
   background-color: rgb(242, 235, 227);
 }
+main{
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
 figure {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
